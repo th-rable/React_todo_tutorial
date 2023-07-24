@@ -4,7 +4,7 @@ import React,{useState} from 'react';
 import Task from './Task';
 
 function App() {
-  let [task,setTask] = useState();
+  let [task,setTask] = useState('');
   let [taskItems,setTaskItems]=useState([]);
 
   function handleAddTask(){
