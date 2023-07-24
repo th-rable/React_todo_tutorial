@@ -1,0 +1,17 @@
+.item{
+    background-color: #fff;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.itemLeft{
+    flex-direction:row;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.itemText{
+    max-width: 80%;
+}
